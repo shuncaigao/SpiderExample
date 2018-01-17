@@ -4,6 +4,10 @@ import re
 import requests
 import time
 
+'''
+https://germey.gitbooks.io/python3webspider/content/3.3-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html
+'''
+
 
 def get_one_page(url):
     response = requests.get(url)
