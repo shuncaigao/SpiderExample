@@ -31,6 +31,7 @@ def parse_one_page(html):
             'score': item[5].strip() + item[6].strip()
         }
 
+
 def main(offset):
     url = 'http://maoyan.com/board/4?offset=' + str(offset)
     html = get_one_page(url)
